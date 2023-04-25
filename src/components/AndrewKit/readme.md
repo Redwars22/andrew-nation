@@ -18,6 +18,10 @@ AndrewKit comes with the following components available for use:
 - Picture
 - Slide
 - Typography
+- Banner
+- Menu(Coming Soon)
+- Modal(Coming Soon)
+- Floating Button(Coming Soon)
 
 You can customize them using the built-in properties inherent to them, but most of them are also customizable via the `customCSS` prop.
 

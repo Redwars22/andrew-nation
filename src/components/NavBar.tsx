@@ -1,27 +1,8 @@
 import React from "react";
-
-import {
-  AtlassianNavigation,
-  PrimaryButton,
-  PrimaryDropdownButton,
-} from "@atlaskit/atlassian-navigation";
-import { SkeletonIconButton } from "@atlaskit/atlassian-navigation/skeleton";
-import Button from "@atlaskit/button";
 import Typography from "./AndrewKit/typography/typography.component";
 import Icon from "./AndrewKit/icon/icon.component";
 import avatar from "../assets/avatar.jpg";
-
-const AtlassianProductHome = () => {
-  return (
-    <Typography
-      color={"#0052CC"}
-      variant={"h5"}
-      customCSS={{ display: "flex", gap: "0.5rem", alignItems: "center" }}
-    >
-      <Icon icon={"code-square"} size={"1.50rem"} /> @ANDREWNATION
-    </Typography>
-  );
-};
+import Button from "./AndrewKit/button/button.component";
 
 /*
 <PrimaryButton>Sobre Mim</PrimaryButton>,
@@ -30,8 +11,29 @@ const AtlassianProductHome = () => {
       <PrimaryButton>Trajetória Acadêmica e Profissional</PrimaryButton>,
 */
 
-const NavBarComponent = () => (
-  <AtlassianNavigation
+
+type ILink = {
+  title: string;
+  url: string;
+};
+
+export interface IMenu {
+  leftSide?: React.ReactNode;
+  links?: ILink[];
+  rightSide?: React.ReactNode;
+}
+
+function Menu(props: IMenu) {
+  return (
+    <header className="andrewkit-menu">
+      <div>{props.leftSide}</div>
+      <div>{props.rightSide}</div>
+    </header>
+  );
+}
+
+/**
+<AtlassianNavigation
     label="site"
     primaryItems={[
       <></>
@@ -57,6 +59,26 @@ const NavBarComponent = () => (
         />
       </SkeletonIconButton>
     )}
+  />
+ */
+
+const NavBarComponent = () => (
+  <Menu leftSide={
+    <Typography
+    color={"#0052CC"}
+    variant={"h5"}
+    customCSS={{ display: "flex", gap: "0.5rem", alignItems: "center" }}
+  >
+    <Icon icon={"code-square"} size={"1.50rem"} /> @ANDREWNATION
+  </Typography>
+  }
+  rightSide={
+    <Button 
+      title="Fale Comigo"
+      appearance="normal"
+      action={()=> window.open("mailto:andrewnationdev@gmail.com")}
+    />
+  }
   />
 );
 

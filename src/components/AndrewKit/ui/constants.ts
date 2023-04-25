@@ -15,3 +15,27 @@ export const typographySizes = {
     h6: '1rem',
     paragraph: '1rem',
   };
+
+export const colorsFromTypeOfBanner = {
+warning: {
+  bg: '#fcdb05',
+  fg: '#fff',
+  border: '#b88700',
+},
+info: {
+  bg: '#006bb3',
+  fg: '#6dbdf2',
+  border: '#014d80',
+},
+danger: {
+  bg: '#de1439',
+  fg: '#fcbdc9',
+  border: '#a83248',
+},
+};
+
+export const iconsFromTypeOfBanner = {
+warning: 'exclamation-triangle-fill',
+info: 'info-square-fill',
+danger: 'x-octagon-fill',
+};

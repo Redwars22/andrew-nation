@@ -7,22 +7,24 @@ import Projects from "./components/Projects";
 import AboutMe from "./components/AboutMe";
 import Footer from "./components/Footer";
 import { ThemeContextProvider } from "./modules/context";
+import Button from "./components/AndrewKit/button/button.component";
 
 function App() {
   const isDev = false;
 
   return (
     <ThemeContextProvider>
+      <button className="floating-button" onClick={() => window.open("https://github.com/Redwars22")}>
+        <i className="bi bi-github"/>
+      </button>
       <div className="App">
         <NavBarComponent />
-        {isDev && <AboutMe />}
+        <AboutMe />
         {isDev && <ComingSoonComponent />}
-        {!isDev && (
           <>
             <Projects />
             <Skills />
           </>
-        )}
       </div>
       <Footer/> 
     </ThemeContextProvider>

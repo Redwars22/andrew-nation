@@ -21,6 +21,7 @@ export type IInput = {
   readOnly?: boolean;
   min?: number;
   max?: number;
+  maxLength?: number;
   autoFocus?: boolean;
   width?: number;
   title?: string;

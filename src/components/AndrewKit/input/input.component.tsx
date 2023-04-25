@@ -35,6 +35,8 @@ export default function Input(props: IInput) {
                     autoFocus={props.autoFocus}
                     width={props.width}
                     required={props.required}
+                    maxLength={props.maxLength}
+                    className={"andrewkit-input"}
                 />
                 {props.showLabel &&
                     (props.type === 'checkbox' || props.type === 'radio') && (

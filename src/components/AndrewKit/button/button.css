@@ -1,3 +1,17 @@
 .andrewkit-button:hover {
-    filter: brightness(85%);
+  filter: brightness(85%);
+}
+
+.andrewkit-floating-button {
+  position: fixed;
+  border: none;
+  bottom: 0;
+  filter: sepia(1);
+  box-shadow: 5px 5px 5px 0.5px rgba(0, 0, 0, 0.3);
+}
+
+.andrewkit-floating-button:hover {
+  cursor: pointer;
+  filter: sepia(0);
+  transition: filter 1000ms;
 }
