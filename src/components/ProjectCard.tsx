@@ -22,23 +22,21 @@ export const ProjectCard = (props: IProjects) => {
             gap: "1rem",
           }}
         >
-          <span>Em breve!</span>
-          {/*
-            <Button 
-                title={"Baixar Projeto"} 
-                disabled 
-                icon={"save"} 
-                appearance={"success"} 
-                action={() => { }} 
-            />
-            <Button 
-                title={"Ler Documentação"} 
-                disabled 
-                icon={"book"} 
-                appearance={"normal"} 
-                action={() => { }} 
-            />
-        */}
+          {props.links === null ? (
+            <span>EM BREVE!</span>
+          ) : (
+            <>
+              {props.links.map((link) => (
+                <Button
+                  title={link.text}
+                  hint={link.text}
+                  appearance={link.type}
+                  icon={link.icon}
+                  action={() => window.open(link.link)}
+                />
+              ))}
+            </>
+          )}
         </div>
       }
       customCSS={{

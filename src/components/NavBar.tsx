@@ -4,14 +4,6 @@ import Icon from "./AndrewKit/icon/icon.component";
 import avatar from "../assets/avatar.jpg";
 import Button from "./AndrewKit/button/button.component";
 
-/*
-<PrimaryButton>Sobre Mim</PrimaryButton>,
-      <PrimaryButton>Projetos</PrimaryButton>,
-      <PrimaryButton>Currículo</PrimaryButton>,
-      <PrimaryButton>Trajetória Acadêmica e Profissional</PrimaryButton>,
-*/
-
-
 type ILink = {
   title: string;
   url: string;
