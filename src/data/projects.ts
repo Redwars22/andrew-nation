@@ -6,7 +6,19 @@ export const projects: IProjects[] = [
     icon: "puzzle",
     description: `O AndrewKit é uma biblioteca de componentes ReactJS prontos para a construção
                 de interfaces simples, feito para quem quer criar interfaces bonitas, mas não quer lidar com a complexidade de algumas bibliotecas. Inclui inputs, botões, tipografia, etc. (Esse card de projetos usa o AndrewKit).`,
-    links: null
+    links: [
+      {
+        type: "normal",
+        icon: "folder2",
+        link: "https://github.com/Redwars22/andrewkit",
+        text: "Visitar Repositório"
+      }, {
+        type: "success",
+        icon: "download",
+        link: "https://github.com/Redwars22/andrewkit/tags",
+        text: "Baixar AndrewKit"
+      }
+    ]
   },
   {
     title: "Palácio da Gula",
