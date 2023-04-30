@@ -42,8 +42,15 @@ export const projects: IProjects[] = [
   {
     title: "Gabriel Against The Aliens",
     icon: "controller",
-    description: `Esse é um jogo para Android que está em desenvolvimento com GDevelop.`,
-    links: null
+    description: `Gabriel Against The Aliens é um jogo para Android feito com GDevelop e Programação Orientada a Eventos no qual o Gabriel, o protagonista, foi parar num planeta bem distante da Terra e tem que encontrar o Eric, seu namorado, que foi sequestrado por alienígenas. Para encontrá-lo, você deverá tentar sobreviver em cada um dos mapas, cuja dificuldade vai aumentando progressivamente, e atravessar os portais.`,
+    links: [
+      {
+        type: "success",
+        icon: "controller",
+        text: "Baixar e Jogar no Android",
+        link: "https://github.com/Redwars22/andrew-nation/raw/main/downloads/Gabriel%20Against%20The%20Aliens.apk"
+      }
+    ]
   },
   {
     title: "Deadline",
