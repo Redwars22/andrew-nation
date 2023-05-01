@@ -55,7 +55,7 @@ export const projects: IProjects[] = [
   {
     title: "Deadline",
     icon: "clipboard-check",
-    description: "O Deadline é um bloco de notas inspirado no Google Keep, no Microsoft Loop e no Notion feito em ReactJS + NextJS, Zustand e TypeScript. Pode ser que futuramente seja feito um port dele para o ReactNative.",
+    description: "O Deadline é um bloco de notas simples e leve para Android feito com ReactNative + Expo. Você pode adicionar, editar e remover notas e ainda destacá-las de acordo com três níveis de prioridade (normal, importante e urgente). Sua interface foi levemente inspirada pela do Notion.",
     links: null
   },
   {
