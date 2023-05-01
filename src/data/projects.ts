@@ -21,6 +21,24 @@ export const projects: IProjects[] = [
     ]
   },
   {
+    title: "Drewmax",
+    icon: "film",
+    description: "O Drewmax é um protótipo de serviço de streaming e biblioteca de filmes e séries que usa a API do The Movie Database, ReactJS, TypeScript e Zustand. Para testá-lo, use as credenciais \"drewmaxtest@gmail.com\" e a senha \"drewmax123\".",
+    links: [
+      {
+        type: "normal",
+        icon: "folder2",
+        link: "https://github.com/Redwars22/drewmax",
+        text: "Visitar Repositório"
+      }, {
+        type: "success",
+        icon: "download",
+        link: "https://drewmax.vercel.app/",
+        text: "Acessar Drewmax"
+      }
+    ]
+  },
+  {
     title: "Palácio da Gula",
     icon: "egg-fried",
     description: "É o sistema online de uma hamburgueria feito com ReactJS, TypeScript e Zustand. Ele possui o fluxo completo, desde a escolha do hamburguer, dos acompanhamentos, pagamento e endereço de entrega.",
