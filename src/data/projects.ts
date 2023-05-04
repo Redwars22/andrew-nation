@@ -60,7 +60,7 @@ export const projects: IProjects[] = [
   {
     title: "Gabriel Against The Aliens",
     icon: "controller",
-    description: `Gabriel Against The Aliens é um jogo para Android feito com GDevelop e Programação Orientada a Eventos no qual o Gabriel, o protagonista, foi parar num planeta bem distante da Terra e tem que encontrar o Eric, seu namorado, que foi sequestrado por alienígenas. Para encontrá-lo, você deverá tentar sobreviver em cada um dos mapas, cuja dificuldade vai aumentando progressivamente, e atravessar os portais.`,
+    description: `Gabriel Against The Aliens é um jogo para Android feito com GDevelop e Programação Orientada a Eventos no qual o Gabriel, o protagonista, foi parar num planeta bem distante da Terra e tem que encontrar o Eric, seu namorado, que foi sequestrado por alienígenas.`,
     links: [
       {
         type: "success",
@@ -73,7 +73,7 @@ export const projects: IProjects[] = [
   {
     title: "Deadline",
     icon: "clipboard-check",
-    description: "O Deadline é um bloco de notas simples e leve para Android feito com ReactNative + Expo. Você pode adicionar, editar e remover notas e ainda destacá-las de acordo com três níveis de prioridade (normal, importante e urgente). Sua interface foi levemente inspirada pela do Notion.",
+    description: "O Deadline é um bloco de notas simples e leve para Android feito com ReactNative + Expo. Você pode adicionar, editar e remover notas. Sua interface foi levemente inspirada pela do Notion.",
     links: null
   },
   {
