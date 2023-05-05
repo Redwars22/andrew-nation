@@ -63,9 +63,9 @@ export const projects: IProjects[] = [
     description: `Gabriel Against The Aliens é um jogo para Android feito com GDevelop e Programação Orientada a Eventos no qual o Gabriel, o protagonista, foi parar num planeta bem distante da Terra e tem que encontrar o Eric, seu namorado, que foi sequestrado por alienígenas.`,
     links: [
       {
-        type: "success",
+        type: "warning",
         icon: "controller",
-        text: "Baixar e Jogar no Android",
+        text: "Baixar e Jogar no Android (Alpha)",
         link: "https://github.com/Redwars22/andrew-nation/raw/main/downloads/Gabriel%20Against%20The%20Aliens.apk"
       }
     ]
@@ -74,7 +74,14 @@ export const projects: IProjects[] = [
     title: "Deadline",
     icon: "clipboard-check",
     description: "O Deadline é um bloco de notas simples e leve para Android feito com ReactNative + Expo. Você pode adicionar, editar e remover notas. Sua interface foi levemente inspirada pela do Notion.",
-    links: null
+    links: [
+      {
+        type: "warning",
+        icon: "download",
+        text: "Baixar Versão Alpha (Android)",
+        link: "https://drive.google.com/file/d/1hu2xRD13GRgyB9M_Z0y6X9N9Mc8xFT8a/view?usp=sharing"
+      }
+    ]
   },
   {
     title: "Andrew Testing Library",
