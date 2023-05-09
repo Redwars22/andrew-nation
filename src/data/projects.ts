@@ -79,7 +79,7 @@ export const projects: IProjects[] = [
         type: "warning",
         icon: "download",
         text: "Baixar Versão RC (Android)",
-        link: "https://drive.google.com/file/d/18TmlP0FwVXEf2RKq_PW6YN0D2BO5Xre0/view?usp=share_link"
+        link: "https://github.com/Redwars22/deadline/releases"
       },
       {
         type: "info",
