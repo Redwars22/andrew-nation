@@ -58,6 +58,25 @@ export const projects: IProjects[] = [
     ]
   },
   {
+    title: "Andrezera",
+    icon: "browser-safari",
+    description: "Um navegador leve para Android feito com ReactNative usando o react-native-web-view. Ele possui modo escuro, histórico de navegação, modo privado e também você consegue salvar os seus sites favoritos. Sua interface é elegante e minimalista.",
+    links: [
+      {
+        type: "warning",
+        icon: "download",
+        link: "https://github.com/Redwars22/andrezera-browser/releases",
+        text: "Baixar Alpha (Android)"
+      },
+      {
+        type: "default",
+        icon: "folder2",
+        link: "https://github.com/Redwars22/andrezera-browser",
+        text: "Código-Fonte"
+      }
+    ]
+  },
+  {
     title: "Gabriel Against The Aliens",
     icon: "controller",
     description: `Gabriel Against The Aliens é um jogo para Android feito com GDevelop e Programação Orientada a Eventos no qual o Gabriel, o protagonista, foi parar num planeta bem distante da Terra e tem que encontrar o Eric, seu namorado, que foi sequestrado por alienígenas.`,
