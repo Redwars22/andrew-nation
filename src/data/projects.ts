@@ -78,7 +78,7 @@ export const projects: IProjects[] = [
       {
         type: "warning",
         icon: "download",
-        text: "Baixar Versão RC (Android)",
+        text: "Baixar para Android",
         link: "https://github.com/Redwars22/deadline/releases"
       },
       {
@@ -92,7 +92,20 @@ export const projects: IProjects[] = [
   {
     title: "Andrew Testing Library",
     icon: "rocket",
-    description: "O Andrew Testing Library é uma ferramenta de teste para TypeScript e JavaScript. Ele foi feito em Node e TypeScript e funciona por linha de comando.",
-    links: null
+    description: "O Andrew Testing Library é uma ferramenta de teste para TypeScript e JavaScript. Ela é bem mais simples que ferramentas mais parrudas como o Jest, por exemplo, mas para testes simples deve cumprir bem seu objetivo. ",
+    links: [
+      {
+        type: "info",
+        icon: "folder2",
+        text: "Código-Fonte",
+        link: "https://github.com/Redwars22/andrew-testing-library/"
+      },
+      {
+        type: "warning",
+        icon: "download",
+        text: "Baixar Versão Alpha",
+        link: "https://github.com/Redwars22/andrew-testing-library/releases"
+      }
+    ]
   }
 ];
