@@ -69,7 +69,7 @@ export const projects: IProjects[] = [
         text: "Baixar Alpha (Android)"
       },
       {
-        type: "default",
+        type: "normal",
         icon: "folder2",
         link: "https://github.com/Redwars22/andrezera-browser",
         text: "Código-Fonte"
