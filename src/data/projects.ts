@@ -98,7 +98,7 @@ export const projects: IProjects[] = [
         type: "warning",
         icon: "download",
         text: "Baixar para Android",
-        link: "https://github.com/Redwars22/deadline/releases"
+        link: "https://getdeadline.vercel.app/"
       },
       {
         type: "info",
