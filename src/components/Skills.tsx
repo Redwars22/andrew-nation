@@ -3,6 +3,7 @@ import Card from "./AndrewKit/card/card.component";
 import Icon from "./AndrewKit/icon/icon.component";
 import Slide from "./AndrewKit/slide/slide.component";
 import Typography from "./AndrewKit/typography/typography.component";
+import Button from "./AndrewKit/button/button.component";
 import React from "react";
 
 export default function Skills() {
@@ -48,7 +49,9 @@ export default function Skills() {
         <li>
           <strong>Ética no Desenvolvimento de Sistemas: </strong>
           <em>Fundação Bradesco. Carga Horária 8 horas.</em>
-          <Button title="Ver Certificado" appearance="normal" icon="eye" action={()=>{}}/>
+          <Button title="Ver Certificado" appearance="normal" icon="eye" action={()=>{
+            window.open("https://github.com/Redwars22/andrew-nation/blob/main/downloads/certf01.pdf")
+          }}/>
         </li>
       </ol>
     </>,
