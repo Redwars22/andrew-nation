@@ -38,6 +38,19 @@ export default function Skills() {
       <Typography variant={"paragraph"}>
         Atualmente cursando o primeiro ano no Currículo 3.
       </Typography>
+      <hr/>
+      <Typography variant={"h5"}>
+        <u>
+          Cursos Complementares
+        </u>
+      </Typography>
+      <ol>
+        <li>
+          <strong>Ética no Desenvolvimento de Sistemas: </strong>
+          <em>Fundação Bradesco. Carga Horária 8 horas.</em>
+          <Button title="Ver Certificado" appearance="normal" icon="eye" action={()=>{}}/>
+        </li>
+      </ol>
     </>,
     <>
       <Typography variant={"h6"}>
