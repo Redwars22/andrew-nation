@@ -85,7 +85,7 @@ export const projects: IProjects[] = [
         type: "warning",
         icon: "controller",
         text: "Baixar e Jogar no Android (Alpha)",
-        link: "https://github.com/Redwars22/andrew-nation/raw/main/downloads/Gabriel%20Against%20The%20Aliens.apk"
+        link: "https://github.com/Redwars22/andrew-nation/blob/main/downloads/Gabriel%20Against%20The%20Aliens-1_0_0.apk"
       }
     ]
   },
