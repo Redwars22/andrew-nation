@@ -55,23 +55,21 @@ export default function Slide(props: ISlide) {
           justifyContent: 'center',
         }}
       >
-        {currentPosition > 0 && (
           <button
             className="andrewkit-slide-arrow"
+            disabled={Boolean(currentPosition > 0)}
             onClick={() => setCurrentPosition(currentPosition - 1)}
           >
-            <Icon icon={'arrow-left-square'} size={'1.5rem'}></Icon>
+            <Icon icon={'arrow-left-square'} size={'1.5rem'} color={currentPosition > 0 ? "grey" : "black"}></Icon>
           </button>
-        )}
         {renderComponent()}
-        {currentPosition < maxLength - 1 && (
           <button
             className="andrewkit-slide-arrow"
+            disabled={Boolean(currentPosition < maxLength - 1)}
             onClick={() => setCurrentPosition(currentPosition + 1)}
           >
-            <Icon icon={'arrow-right-square'} size={'1.5rem'}></Icon>
+            <Icon icon={'arrow-right-square'} size={'1.5rem'} color={currentPosition < maxLength - 1 ? "grey" : "black"}></Icon>
           </button>
-        )}
       </div>
       <meter
         className="andrewkit-slide-meter"
