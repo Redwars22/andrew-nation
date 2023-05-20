@@ -20,7 +20,12 @@ export default function Card(props: ICard) {
         )}
         {props.children}
         {props.footer && (
-          <div>
+          <div style={{
+            display: "flex",
+            flexDirection: "row",
+            gap: "16",
+            flexWrap: "wrap"
+          }}>
             <hr className="andrewkit-card-separator" />
             {props.footer}
           </div>

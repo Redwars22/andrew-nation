@@ -26,7 +26,7 @@ export default function Projects() {
         customCSS={{
           marginLeft: "auto",
           marginRight: "auto",
-          width: window.innerWidth < 710 ? "100%" : "60%" ,
+          width: window.innerWidth < 710 ? "90%" : "60%" ,
         }}
       />
     </>

@@ -105,7 +105,7 @@ export default function Skills() {
           textAlign: "left",
           marginLeft: "auto",
           marginRight: "auto",
-          width: window.innerWidth < 710 ? "100%" : "60%" ,
+          width: window.innerWidth < 710 ? "90%" : "60%" ,
         }}
       ></Slide>
     </>
