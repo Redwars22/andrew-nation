@@ -20,7 +20,7 @@ export default function Slide(props: ISlide) {
     );
   };
 
-  React.useEffect(() => {
+  /*React.useEffect(() => {
     let opacity = 0;
 
     (
@@ -36,7 +36,7 @@ export default function Slide(props: ISlide) {
 
       if (opacity > 1.0) clearInterval(animation);
     }, 100);
-  }, [currentPosition]);
+  }, [currentPosition]);*/
 
   return (
     <Card

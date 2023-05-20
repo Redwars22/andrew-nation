@@ -20,6 +20,9 @@ export const ProjectCard = (props: IProjects) => {
           style={{
             display: "flex",
             gap: "1rem",
+            flexDirection: "row",
+            flexWrap: "wrap",
+            justifyContent: "space-around"
           }}
         >
           {props.links === null ? (
