@@ -102,10 +102,10 @@ export default function Skills() {
         data={skillsArr}
         hideBoxShadow
         customCSS={{
-          width: "65%",
+          textAlign: "left",
           marginLeft: "auto",
           marginRight: "auto",
-          textAlign: "left",
+          width: window.innerWidth < 710 ? "100%" : "60%" ,
         }}
       ></Slide>
     </>

@@ -23,7 +23,11 @@ export default function Projects() {
       <Slide
         data={projectCards}
         hideBoxShadow
-        customCSS={{ width: "65%", marginLeft: "auto", marginRight: "auto" }}
+        customCSS={{
+          marginLeft: "auto",
+          marginRight: "auto",
+          width: window.innerWidth < 710 ? "100%" : "60%" ,
+        }}
       />
     </>
   );
