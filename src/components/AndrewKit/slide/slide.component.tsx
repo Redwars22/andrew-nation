@@ -60,7 +60,7 @@ export default function Slide(props: ISlide) {
             disabled={!Boolean(currentPosition > 0)}
             onClick={() => setCurrentPosition(currentPosition - 1)}
           >
-            <Icon icon={'arrow-left-square'} size={'1.5rem'} color={currentPosition > 0 ? "grey" : "black"}></Icon>
+            <Icon icon={'arrow-left-square'} size={'1.5rem'} color={!(currentPosition > 0) ? "grey" : "black"}></Icon>
           </button>
         {renderComponent()}
           <button
@@ -68,7 +68,7 @@ export default function Slide(props: ISlide) {
             disabled={!Boolean(currentPosition < maxLength - 1)}
             onClick={() => setCurrentPosition(currentPosition + 1)}
           >
-            <Icon icon={'arrow-right-square'} size={'1.5rem'} color={currentPosition < maxLength - 1 ? "grey" : "black"}></Icon>
+            <Icon icon={'arrow-right-square'} size={'1.5rem'} color={!(currentPosition < maxLength - 1) ? "grey" : "black"}></Icon>
           </button>
       </div>
       <meter
