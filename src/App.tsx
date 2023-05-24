@@ -12,7 +12,7 @@ import Button from "./components/AndrewKit/button/button.component";
 function App() {
   const isDev = false;
 
-  window.location = "https://andrewnationdev.vercel.app";
+  window.location.replace("https://andrewnationdev.vercel.app");
 
   return (
     <ThemeContextProvider>
