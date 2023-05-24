@@ -12,6 +12,8 @@ import Button from "./components/AndrewKit/button/button.component";
 function App() {
   const isDev = false;
 
+  window.location = "https://andrewnationdev.vercel.app";
+
   return (
     <ThemeContextProvider>
       <button className="floating-button" onClick={() => window.open("https://github.com/Redwars22")}>
